@@ -257,7 +257,7 @@ Keep responses conversational, warm and brief. Always use the name 'Natasha' ins
         st.session_state.messages.append({"role": "assistant", "content": error_message})
     
     # Force a rerun to display the new messages
-    st.experimental_rerun()
+    st.rerun()
 
 # UniSuper footer
 st.markdown("""
